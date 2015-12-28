@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302A67351C3106A50053D308 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302A67341C3106A50053D308 /* FooterView.xib */; };
 		30A5BE831C30FAA500490F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5BE821C30FAA500490F68 /* AppDelegate.swift */; };
-		30A5BE851C30FAA500490F68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5BE841C30FAA500490F68 /* ViewController.swift */; };
 		30A5BE881C30FAA500490F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A5BE861C30FAA500490F68 /* Main.storyboard */; };
 		30A5BE8A1C30FAA500490F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A5BE891C30FAA500490F68 /* Assets.xcassets */; };
 		30A5BE8D1C30FAA500490F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A5BE8B1C30FAA500490F68 /* LaunchScreen.storyboard */; };
 		30A5BE981C30FAA500490F68 /* sampleTableFooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5BE971C30FAA500490F68 /* sampleTableFooterTests.swift */; };
 		30A5BEA31C30FAA500490F68 /* sampleTableFooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5BEA21C30FAA500490F68 /* sampleTableFooterUITests.swift */; };
+		30A5BEB11C30FD5900490F68 /* FooterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5BEB01C30FD5900490F68 /* FooterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		302A67341C3106A50053D308 /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
 		30A5BE7F1C30FAA500490F68 /* sampleTableFooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleTableFooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A5BE821C30FAA500490F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30A5BE841C30FAA500490F68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30A5BE871C30FAA500490F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30A5BE891C30FAA500490F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30A5BE8C1C30FAA500490F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		30A5BE9E1C30FAA500490F68 /* sampleTableFooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTableFooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A5BEA21C30FAA500490F68 /* sampleTableFooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTableFooterUITests.swift; sourceTree = "<group>"; };
 		30A5BEA41C30FAA500490F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A5BEB01C30FD5900490F68 /* FooterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				30A5BE821C30FAA500490F68 /* AppDelegate.swift */,
-				30A5BE841C30FAA500490F68 /* ViewController.swift */,
 				30A5BE861C30FAA500490F68 /* Main.storyboard */,
+				302A67341C3106A50053D308 /* FooterView.xib */,
+				30A5BEB01C30FD5900490F68 /* FooterTableViewController.swift */,
 				30A5BE891C30FAA500490F68 /* Assets.xcassets */,
 				30A5BE8B1C30FAA500490F68 /* LaunchScreen.storyboard */,
 				30A5BE8E1C30FAA500490F68 /* Info.plist */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30A5BE8D1C30FAA500490F68 /* LaunchScreen.storyboard in Resources */,
+				302A67351C3106A50053D308 /* FooterView.xib in Resources */,
 				30A5BE8A1C30FAA500490F68 /* Assets.xcassets in Resources */,
 				30A5BE881C30FAA500490F68 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A5BE851C30FAA500490F68 /* ViewController.swift in Sources */,
+				30A5BEB11C30FD5900490F68 /* FooterTableViewController.swift in Sources */,
 				30A5BE831C30FAA500490F68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				30A5BEA91C30FAA500490F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30A5BEAA1C30FAA500490F68 /* Build configuration list for PBXNativeTarget "sampleTableFooterTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				30A5BEAC1C30FAA500490F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30A5BEAD1C30FAA500490F68 /* Build configuration list for PBXNativeTarget "sampleTableFooterUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				30A5BEAF1C30FAA500490F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
